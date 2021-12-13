@@ -1,0 +1,27 @@
+{
+  "name": "prova-aluno-caio-levi",
+  "version": "1.0.0",
+  "description": "Repositório para a atividade 06 da disciplina de banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "npx knex seed:run",
+    "migrate": "npx knex migrate:latest",
+    "db": "npm run migrate && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiolevimc/prova-aluno-caio-levi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiolevimc/prova-aluno-caio-levi/issues"
+  },
+  "homepage": "https://github.com/caiolevimc/prova-aluno-caio-levi#readme",
+  "dependencies": {
+    "knex": "^0.95.14",
+    "sqlite3": "^5.0.2"
+  }
+}
